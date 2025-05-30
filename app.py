@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, session
 import json, os, uuid
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'  # Replace with your generated key
+app.secret_key = 'ee89a614fb008e4a8c8efb2216160ec9'
 
 USER_FILE = 'data/users.json'
 TASK_FILE = 'data/tasks.json'
